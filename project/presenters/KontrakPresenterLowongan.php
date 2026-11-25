@@ -1,0 +1,9 @@
+<?php
+interface KontrakPresenterLowongan {
+    public function tampilkanLowongan(): string;
+    public function tampilkanFormLowongan(?int $id = null): string;
+    public function tambahLowongan(string $judul, string $departemen, string $lokasi, int $gaji, int $kuota): void;
+    public function ubahLowongan(int $id, string $judul, string $departemen, string $lokasi, int $gaji, int $kuota): void;
+    public function hapusLowongan(int $id): void;
+}
+?>
