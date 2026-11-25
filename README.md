@@ -39,9 +39,5 @@ project/
 
 Prinsip Passive View: folder `views/` tidak memakai `require` Model/Entity, `foreach`, maupun `count()`. Semua query memakai prepared statement.
 
-## 3. Cara Menjalankan
-1. Nyalakan Apache & MySQL XAMPP, import `mvp_db.sql` lewat phpMyAdmin (membuat database `mvp_kandidat_db`).
-2. Letakkan folder `project` di `htdocs` (atau `php -S localhost:8000` di dalam folder `project`), lalu buka `localhost/.../index.php`.
-
-## 4. Dokumentasi
+## 3. Dokumentasi
 [Demo](https://drive.google.com/file/d/1HFWO8gQn0JqaUHyah_RExhgSQihh9n1g/view?usp=sharing)
